@@ -22,6 +22,9 @@ func main() {
 
 	b := battle.NewBattle(count)
 
+	// "begin"
+	b.Hajime()
+
 	for !b.Finished() {
 		b.Turn()
 		time.Sleep(200 * time.Millisecond)

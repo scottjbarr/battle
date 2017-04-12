@@ -52,8 +52,17 @@ func (b *Battle) Turn() {
 
 	if !target.IsAlive() {
 		fmt.Printf("    %v is dead! :(\n", target.Name)
-		fmt.Printf("    %v/%v fighters\n", len(b.Alive()), len(b.Fighters))
+		fmt.Printf("    %v/%v fighters left.\n", len(b.Alive()), len(b.Fighters))
 	}
+}
+
+func (b Battle) Hajime() {
+	fmt.Printf("%v fighters enter the arena.\n", len(b.Fighters))
+
+	for _, f := range b.Fighters {
+		fmt.Printf("    %s\n", f)
+	}
+	fmt.Printf("\n")
 }
 
 func (b Battle) Finished() bool {
