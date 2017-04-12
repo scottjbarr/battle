@@ -2,13 +2,11 @@
 
 There can be only one :)
 
-A little random creature battle game.
-
 A battle is setup, random fighters are generated, they duke it out and
 eventually there is a winner.
 
 
-## Docs and Tests
+## Docs? Tests?!
 
 There are no docs, and almost no comments. There are no tests. This is a toy
 project.
