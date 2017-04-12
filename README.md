@@ -16,22 +16,39 @@ project.
 
 ```
 $ COUNT=3 go run cmd/battle/main.go
-Touchbead (H:708 P:158 L:0.54 V:0 TD:152) hit Thunderrune (H:198 P:169 L:0.66 V:0 TD:0) doing 152 damage
-Thunderrune (H:198 P:169 L:0.66 V:0 TD:154) hit Touchbead (H:554 P:158 L:0.54 V:0 TD:152) doing 154 damage
-Touchbead (H:554 P:158 L:0.54 V:0 TD:310) hit Thunderrune (H:40 P:169 L:0.66 V:0 TD:154) doing 158 damage
-Coyotenight (H:618 P:184 L:0.94 V:0 TD:184) hit Touchbead (H:370 P:158 L:0.54 V:0 TD:310) doing 184 damage
-Coyotenight (H:618 P:184 L:0.94 V:0 TD:368) hit Touchbead (H:186 P:158 L:0.54 V:0 TD:310) doing 184 damage
-Thunderrune (H:40 P:169 L:0.66 V:0 TD:323) hit Touchbead (H:17 P:158 L:0.54 V:0 TD:310) doing 169 damage
-Thunderrune (H:40 P:169 L:0.66 V:1 TD:492) hit Touchbead (H:-152 P:158 L:0.54 V:0 TD:310) doing 169 damage
-    Touchbead is dead! :(
-    2/3 fighters
-Thunderrune (H:40 P:169 L:0.66 V:1 TD:646) hit Coyotenight (H:464 P:184 L:0.94 V:0 TD:368) doing 154 damage
-Thunderrune (H:40 P:169 L:0.66 V:1 TD:804) hit Coyotenight (H:306 P:184 L:0.94 V:0 TD:368) doing 158 damage
-Coyotenight (H:306 P:184 L:0.94 V:1 TD:552) hit Thunderrune (H:-144 P:169 L:0.66 V:1 TD:804) doing 184 damage
-    Thunderrune is dead! :(
-    1/3 fighters
-Coyotenight (H:306 P:184 L:0.94 V:1 TD:552) wins!
+3 fighters enter the arena.
+    Rabbitseed (H:957 P:124 L:0.39 V:0 TD:0)
+    Ogreeast (H:395 P:129 L:0.43 V:0 TD:0)
+    Coyotequasar (H:785 P:114 L:0.67 V:0 TD:0)
+
+Rabbitseed (H:957 P:124 L:0.39 V:0 TD:124) hit Coyotequasar (H:661 P:114 L:0.67 V:0 TD:0) doing 124 damage
+Ogreeast (H:395 P:129 L:0.43 V:0 TD:99) hit Coyotequasar (H:562 P:114 L:0.67 V:0 TD:0) doing 99 damage
+Coyotequasar (H:562 P:114 L:0.67 V:0 TD:111) hit Rabbitseed (H:846 P:124 L:0.39 V:0 TD:124) doing 111 damage
+Rabbitseed (H:846 P:124 L:0.39 V:0 TD:185) hit Ogreeast (H:334 P:129 L:0.43 V:0 TD:99) doing 61 damage
+Coyotequasar (H:562 P:114 L:0.67 V:0 TD:225) hit Rabbitseed (H:732 P:124 L:0.39 V:0 TD:185) doing 114 damage
+Ogreeast (H:334 P:129 L:0.43 V:0 TD:212) hit Coyotequasar (H:449 P:114 L:0.67 V:0 TD:225) doing 113 damage
+Ogreeast (H:334 P:129 L:0.43 V:0 TD:318) hit Rabbitseed (H:626 P:124 L:0.39 V:0 TD:185) doing 106 damage
+Ogreeast (H:334 P:129 L:0.43 V:0 TD:404) hit Coyotequasar (H:363 P:114 L:0.67 V:0 TD:225) doing 86 damage
+Rabbitseed (H:626 P:124 L:0.39 V:0 TD:309) hit Ogreeast (H:210 P:129 L:0.43 V:0 TD:404) doing 124 damage
+Rabbitseed (H:626 P:124 L:0.39 V:0 TD:432) hit Coyotequasar (H:240 P:114 L:0.67 V:0 TD:225) doing 123 damage
+Coyotequasar (H:240 P:114 L:0.67 V:0 TD:329) hit Rabbitseed (H:522 P:124 L:0.39 V:0 TD:432) doing 104 damage
+Ogreeast (H:210 P:129 L:0.43 V:0 TD:485) hit Rabbitseed (H:441 P:124 L:0.39 V:0 TD:432) doing 81 damage
+Ogreeast (H:210 P:129 L:0.43 V:0 TD:586) hit Rabbitseed (H:340 P:124 L:0.39 V:0 TD:432) doing 101 damage
+Rabbitseed (H:340 P:124 L:0.39 V:0 TD:498) hit Ogreeast (H:144 P:129 L:0.43 V:0 TD:586) doing 66 damage
+Rabbitseed (H:340 P:124 L:0.39 V:0 TD:593) hit Coyotequasar (H:145 P:114 L:0.67 V:0 TD:329) doing 95 damage
+Coyotequasar (H:145 P:114 L:0.67 V:0 TD:443) hit Ogreeast (H:30 P:129 L:0.43 V:0 TD:586) doing 114 damage
+Coyotequasar (H:145 P:114 L:0.67 V:0 TD:557) hit Rabbitseed (H:226 P:124 L:0.39 V:0 TD:593) doing 114 damage
+Ogreeast (H:30 P:129 L:0.43 V:0 TD:715) hit Coyotequasar (H:16 P:114 L:0.67 V:0 TD:557) doing 129 damage
+Rabbitseed (H:226 P:124 L:0.39 V:1 TD:717) hit Ogreeast (H:-94 P:129 L:0.43 V:0 TD:715) doing 124 damage
+    Ogreeast is dead! :(
+    2/3 fighters left.
+Coyotequasar (H:16 P:114 L:0.67 V:0 TD:671) hit Rabbitseed (H:112 P:124 L:0.39 V:1 TD:717) doing 114 damage
+Rabbitseed (H:112 P:124 L:0.39 V:2 TD:804) hit Coyotequasar (H:-71 P:114 L:0.67 V:0 TD:671) doing 87 damage
+    Coyotequasar is dead! :(
+    1/3 fighters left.
+Rabbitseed (H:112 P:124 L:0.39 V:2 TD:804) wins!
 ```
+
 
 ## License
 
